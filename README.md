@@ -1,4 +1,4 @@
-# Evaluating Generative AI Context Scanning: Text Formatting and Needle Placement
+# Senior Research Generative AI Context Scanning
 
 This research project investigates the impact of text formatting and "needle" placement on the context scanning capabilities of generative AI models.
 
