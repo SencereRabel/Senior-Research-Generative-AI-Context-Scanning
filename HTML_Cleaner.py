@@ -20,10 +20,10 @@ def clean_page():
 
 def print_plaintext():
     cleaned_text = clean_page()
-    '''
+    
     print("="*100)
     print("All Text:")
     print("-"*75)
     print(cleaned_text)
     print("="*100)
-    '''
+    

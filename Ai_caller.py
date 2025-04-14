@@ -18,8 +18,9 @@ document = ""
 def run_test(needle):
     document_name=[]
     answers = []
-    counter = 1
-    for i in range(2):
+    counter = 0        
+# run test for test 1
+    for i in range(5):
         counter +=1
         if counter == 1:
             document = hc.clean_page()
@@ -28,21 +29,24 @@ def run_test(needle):
             document = hs.unedited_html
             document_name.append('Unedited HTML')
         elif counter == 3:
-            document = hs.bold_needle_html
+            document = hs.bold_needle_html_needle_top
             document_name.append('Needle Bold')
         elif counter == 4:
-            document = hs.italic_needle_html
+            document = hs.italic_needle_html_needle_top
             document_name.append('Needle Italic')
         elif counter == 5:
-            document = hs.underlined_needle_html
+            document = hs.underlined_needle_html_needle_top
             document_name.append('Needle Underlined')
+# Else run test for test 2
+# CODE
         response = co.chat(
             model="command-a-03-2025",
             messages=[
                 {
                     "role": "system",
                     "content": f"Your goal is to help users find information within a string of text. When prompted with a question your answer must be a numerical value, \
-                    it should not have any characters that aren't numbers. The string of text you will be searching is {document} \
+                    it should not have any characters that aren't numbers. If the information is not in the string of text just say the phrase 'Needle not found.' \
+                    The string of text you will be searching is {document} \
                     To summarize you will check a string text and give a response to a question asked but the response must be a number.",
                 },
                 {
@@ -61,9 +65,12 @@ def run_test(needle):
         )
         llmRespone = response.message.content[0].text
         answers.append(llmRespone)
-
-    print("="*100)
-    print(f"Prompt: {needle}")
-    for i in range(len(answers)):
-        print(f"{document_name[i]:<{15}}: {answers[i]:<{10}}")
-        print("-"*100)
+    with open("Results.txt", "a") as f:
+        print("="*100)
+        f.write("="*100+"\n")
+        print(f"Prompt: {needle}")
+        f.write(f"Prompt: {needle}\n")
+        for i in range(len(answers)):
+            print(f"{document_name[i]:<{15}}: {answers[i]:<{10}}")
+            f.write(f"{document_name[i]:<{15}}: {answers[i]:<{10}}\n")
+            print("-"*100)

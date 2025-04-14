@@ -1,5 +1,13 @@
 import Ai_caller as ac
-#the prompt it is expected to answer
-needle = ["What percent was the NON-GAAP gross margin in 2025","What percent was the NON-GAAP gross margin in Q4 FY25"]
+import html_source as hs
+from datetime import date, time, datetime
+
+
+needle = [hs.needle_top,hs.needle_top_less_specific]
+with open("Results.txt", "a") as f:
+    now = datetime.now()
+    f.write("-"*100+"\n")
+    f.write("-"*100+"\n")
+    f.write(str(now)+"\n")
 for i in needle:
     ac.run_test(i)
