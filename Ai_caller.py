@@ -1,15 +1,13 @@
 import cohere
 import html_source as hs
 import HTML_Cleaner as hc
+import csv
 # Fetch key
 with open('/Users/senrabel/Desktop/Key.txt') as f:
     key = f.read()
 
 # Sets the API key
 co = cohere.ClientV2(key)
-
-# Text that the AI is expected to scan
-document = ""
 
 def call_ai(document, needle):
     response = co.chat(
@@ -41,9 +39,9 @@ def call_ai(document, needle):
 def run_test(needle, test):
     document_name = []
     answers = []
-    counter = 5
+    counter = 0
 
-    # Run test for test 1
+    # Run test for needle1
     if test == 1:
         for i in range(6):
             counter += 1
@@ -54,25 +52,25 @@ def run_test(needle, test):
                 document = hs.unedited_html
                 document_name.append('Unedited HTML')
             elif counter == 3:
-                document = hs.bold_needle_html_needle_top
+                document = hs.bold_needle1
                 document_name.append('Needle Bold')
             elif counter == 4:
-                document = hs.italic_needle_html_needle_top
+                document = hs.italic_needle1
                 document_name.append('Needle Italic')
             elif counter == 5:
-                document = hs.underlined_needle_html_needle_top
+                document = hs.underlined_needle1
                 document_name.append('Needle Underlined')
             elif counter == 6:
-                document = hs.no_needle_html_needle_top
+                document = hs.no_needle1
                 document_name.append('No Needle')
 
             # Make the AI call for each iteration
             llmResponse = call_ai(document, needle)
             answers.append(llmResponse)
 
-    # Run test for test 2
+    # Run test for needle2
     elif test == 2:
-        for i in range(1):
+        for i in range(5):
             counter += 1
             if counter == 1:
                 document = hc.clean_page()
@@ -81,29 +79,28 @@ def run_test(needle, test):
                 document = hs.unedited_html
                 document_name.append('Unedited HTML')
             elif counter == 3:
-                document = hs.bold_needle_html_needle_bottom
+                document = hs.bold_needle2
                 document_name.append('Needle Bold')
             elif counter == 4:
-                document = hs.italic_needle_html_needle_bottom
+                document = hs.italic_needle2
                 document_name.append('Needle Italic')
             elif counter == 5:
-                document = hs.underlined_needle_html_needle_bottom
+                document = hs.underlined_needle2
                 document_name.append('Needle Underlined')
             elif counter == 6:
-                document = hs.no_needle_html_needle_bottom
+                document = hs.no_needle2
                 document_name.append('No Needle')
 
             # Make the AI call for each iteration
             llmResponse = call_ai(document, needle)
             answers.append(llmResponse)
+ 
 
-
-    with open("Results.txt", "a") as f:
-        print("=" * 100)
-        f.write("=" * 100 + "\n")
-        print(f"Prompt: {needle}")
-        f.write(f"Prompt: {needle}\n")
+    # Write results to CSV
+    with open("Results.csv", mode="a", newline="") as file:
+        writer = csv.writer(file)
+        writer.writerow(["Prompt", needle]) 
         for i in range(len(answers)):
-            print(f"{document_name[i]:<{15}}: {answers[i]:<{10}}")
-            f.write(f"{document_name[i]:<{15}}: {answers[i]:<{10}}\n")
-            print("-" * 100)
+            writer.writerow([document_name[i], answers[i]])
+
+    print("Results have been written to Results.csv")

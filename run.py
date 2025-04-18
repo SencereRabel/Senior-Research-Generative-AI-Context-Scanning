@@ -2,25 +2,23 @@ import Ai_caller as ac
 import html_source as hs
 from datetime import datetime
 import time
-# test = int(input("What are you testing\n\
-#                  needle placement top & no needle type 1.\n\
-#                  needle placement bottom type 2.\n \
-#                  ENTER HERE:"))
-for j in range (6):
-    time.sleep(60)
-    test =2
+
+test = int(input("Enter which needle to test: "))
+num_test = int(input("Enter number of times to run test: "))
+
+for j in range (num_test):
     if test == 1:
-        needle = [hs.needle_top,hs.needle_top_less_specific]
-        tag = "Test for top needle placement and no needle"
+        needle = [hs.needle1_prompt1,hs.needle1_prompt2]
+        tag = "Test for needle 1"
     elif test ==2:
-        needle = [hs.needle_bottom,hs.needle_bottom_less_specific]
-        tag = "test for bottom needle placement"
+        needle = [hs.needle2_prompt1,hs.needle2_prompt2]
+        tag = "test for needle 2"
     with open("Results.txt", "a") as f:
         now = datetime.now()
         f.write("-"*100+"\n")
         f.write(str(now)+"\n")
         f.write(tag+"\n")
-        f.write("-"*100+"\n")
-        
+        f.write("-"*100+"\n") 
     for i in needle:
         ac.run_test(i,test)
+    time.sleep(60)

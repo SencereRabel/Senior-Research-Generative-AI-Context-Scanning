@@ -1,36 +1,39 @@
-needle_top = "What percent was the NON-GAAP gross margin in Q4 FY25?"
-needle_top_less_specific = "What percent was the NON-GAAP gross margin in quarter four of 2025?"
+needle1_prompt1 = "What percent was the NON-GAAP gross margin in Q4 FY25?"
+needle1_prompt2 = "What percent was the NON-GAAP gross margin in quarter four of 2025?"
 
-needle_bottom = "What is the value of the cash, cash equivalents and marketable securities in january of 2024"
-needle_bottom_less_specific = "What is the value of cash assets in january of 2024"
+needle3_prompt1 = "What percent was the NON-GAAP gross margin in Q4 FY25?"
+needle3_prompt2 = "What percent was the NON-GAAP gross margin in quarter four of 2025?"
+
+needle2_prompt1 = "What is the value of the cash, cash equivalents and marketable securities in january of 2024"
+needle2_prompt2 = "What is the value of cash assets in january of 2024"
 
 
 
 with open('Unedited_html.txt') as f:
     unedited_html = f.read()
 
-#Needle top
-with open('no_needle_html(needle_top).txt') as f:
-    no_needle_html_needle_top = f.read()
+#Needle1
+with open('no_needle1.txt') as f:
+    no_needle1 = f.read()
 
-with open('italic_needle_html(needle_top).txt') as f:
-	italic_needle_html_needle_top = f.read()
+with open('italic_needle1.txt') as f:
+	italic_needle1 = f.read()
 
-with open('bold_needle_html(needle_top).txt') as f:
-	bold_needle_html_needle_top = f.read()
+with open('bold_needle1.txt') as f:
+	bold_needle1 = f.read()
 
-with open('underlined_needle_html(needle_top).txt') as f:
-	underlined_needle_html_needle_bottom = f.read()
+with open('underlined_needle1.txt') as f:
+	underlined_needle1 = f.read()
 
-#Needle bottom
-with open('no_needle_html(needle_bottom).txt') as f:
-    no_needle_html_needle_bottom = f.read()
+#Needle2
+with open('no_needle2.txt') as f:
+    no_needle2 = f.read()
 
-with open('italic_needle_html(needle_bottom).txt') as f:
-	italic_needle_html_needle_bottom = f.read()
+with open('italic_needle2.txt') as f:
+	italic_needle2 = f.read()
 
-with open('bold_needle_html(needle_bottom).txt') as f:
-	bold_needle_html_needle_bottom = f.read()
+with open('bold_needle2.txt') as f:
+	bold_needle2 = f.read()
 
-with open('underlined_needle_html(needle_bottom).txt') as f:
-	underlined_needle_html_needle_bottom = f.read()
+with open('underlined_needle2.txt') as f:
+	underlined_needle2 = f.read()
