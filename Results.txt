@@ -1,40 +1,35 @@
 ----------------------------------------------------------------------------------------------------
+2025-04-16 18:32:21.642949
+Test for top needle placement and no needle
 ----------------------------------------------------------------------------------------------------
-2025-04-14 18:04:21.810020
 ====================================================================================================
 Prompt: What percent was the NON-GAAP gross margin in Q4 FY25?
 Plaintext      : 73.5      
-----------------------------------------------------------------------------------------------------
 Unedited HTML  : 73.5      
-----------------------------------------------------------------------------------------------------
-Needle Bold    : 73.5      
-----------------------------------------------------------------------------------------------------
+Needle Bold    : 73.5%     
 Needle Italic  : 73.5      
-----------------------------------------------------------------------------------------------------
 Needle Underlined: 73.5      
-----------------------------------------------------------------------------------------------------
+No Needle      : 75.0%     
 ====================================================================================================
 Prompt: What percent was the NON-GAAP gross margin in quarter four of 2025?
 Plaintext      : 73.5      
-----------------------------------------------------------------------------------------------------
 Unedited HTML  : 73.5      
-----------------------------------------------------------------------------------------------------
 Needle Bold    : 73.5      
-----------------------------------------------------------------------------------------------------
 Needle Italic  : 73.5      
-----------------------------------------------------------------------------------------------------
 Needle Underlined: 73.5      
+No Needle      : 75        
 ----------------------------------------------------------------------------------------------------
+2025-04-16 18:35:21.576206
+Test for top needle placement and no needle
 ----------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------
-2025-04-14 18:27:06.828339
 ====================================================================================================
 Prompt: What percent was the NON-GAAP gross margin in Q4 FY25?
 Plaintext      : 73.5      
 Unedited HTML  : 73.5      
-Needle Bold    : 73.5      
-Needle Italic  : 73.5%     
-Needle Underlined: 73.5      
+Needle Bold    : 73.5%     
+Needle Italic  : 73.5      
+Needle Underlined: 73.5%     
+No Needle      : 75.0%     
 ====================================================================================================
 Prompt: What percent was the NON-GAAP gross margin in quarter four of 2025?
 Plaintext      : 73.5      
@@ -42,4 +37,267 @@ Unedited HTML  : 73.5
 Needle Bold    : 73.5%     
 Needle Italic  : 73.5      
 Needle Underlined: 73.5      
+No Needle      : 75.0%     
+----------------------------------------------------------------------------------------------------
+2025-04-15 10:56:56.537885
+Test for top needle placement and no needle
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What percent was the NON-GAAP gross margin in Q4 FY25?
+Plaintext      : 73.5      
+Unedited HTML  : 73.5      
+Needle Bold    : 73.5      
+Needle Italic  : 73.5      
+Needle Underlined: 73.5      
+No Needle      : 75.0%     
+====================================================================================================
+Prompt: What percent was the NON-GAAP gross margin in quarter four of 2025?
+Plaintext      : 73.5      
+Unedited HTML  : 73.5      
+Needle Bold    : 73.5%     
+Needle Italic  : 73.5      
+Needle Underlined: 73.5      
+No Needle      : 75.0%     
+----------------------------------------------------------------------------------------------------
+2025-04-16 16:58:17.288227
+Test for top needle placement and no needle
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What percent was the NON-GAAP gross margin in Q4 FY25?
+Plaintext      : 73.5      
+Unedited HTML  : 73.5      
+Needle Bold    : 73.5      
+Needle Italic  : 73.5      
+Needle Underlined: 73.5      
+No Needle      : 75.0%     
+====================================================================================================
+Prompt: What percent was the NON-GAAP gross margin in quarter four of 2025?
+Plaintext      : 73.5      
+Unedited HTML  : 73.5      
+Needle Bold    : 73.5      
+Needle Italic  : 73.5%     
+Needle Underlined: 73.5%     
+No Needle      : 75.0%     
+----------------------------------------------------------------------------------------------------
+2025-04-16 17:00:34.743822
+Test for top needle placement and no needle
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What percent was the NON-GAAP gross margin in Q4 FY25?
+Plaintext      : 73.5      
+Unedited HTML  : 73.5      
+Needle Bold    : 73.5      
+Needle Italic  : 73.5      
+Needle Underlined: 73.5      
+No Needle      : 75.0%     
+====================================================================================================
+Prompt: What percent was the NON-GAAP gross margin in quarter four of 2025?
+Plaintext      : 73.5      
+Unedited HTML  : 73.5      
+Needle Bold    : 73.5      
+Needle Italic  : 73.5      
+Needle Underlined: 73.5      
+No Needle      : 75.0%     
+----------------------------------------------------------------------------------------------------
+2025-04-16 17:02:30.910932
+Test for top needle placement and no needle
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What percent was the NON-GAAP gross margin in Q4 FY25?
+Plaintext      : 73.5      
+Unedited HTML  : 73.5      
+Needle Bold    : 73.5%     
+Needle Italic  : 73.5      
+Needle Underlined: 73.5      
+No Needle      : 75        
+====================================================================================================
+Prompt: What percent was the NON-GAAP gross margin in quarter four of 2025?
+Plaintext      : 73.5      
+Unedited HTML  : 73.5      
+Needle Bold    : 73.5      
+Needle Italic  : 73.5%     
+Needle Underlined: 73.5      
+No Needle      : 75.0%     
 
+----------------------------------------------------------------------------------------------------
+2025-04-16 17:19:54.567837
+Test for top needle placement and no needle
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What percent was the NON-GAAP gross margin in Q4 FY25?
+Plaintext      : 73.5      
+Unedited HTML  : 73.5      
+Needle Bold    : 73.5      
+Needle Italic  : 73.5%     
+Needle Underlined: 73.5      
+No Needle      : 75.0%     
+----------------------------------------------------------------------------------------------------
+2025-04-16 17:50:28.620629
+test for bottom needle placement
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What is the value of the cash, cash equivalents and marketable securities in january of 2024
+Plaintext      : 25984     
+Unedited HTML  : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Bold    : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Italic  : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Underlined: The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+----------------------------------------------------------------------------------------------------
+2025-04-16 17:51:53.818240
+test for bottom needle placement
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What is the value of the cash, cash equivalents and marketable securities in january of 2024
+Plaintext      : 25,984    
+Unedited HTML  : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Bold    : 43,210    
+Needle Italic  : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Underlined: The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.  
+----------------------------------------------------------------------------------------------------
+2025-04-16 17:56:02.244227
+test for bottom needle placement
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What is the value of the cash, cash equivalents and marketable securities in january of 2024
+Plaintext      : 25984     
+Unedited HTML  : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Bold    : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Italic  : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Underlined: The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+----------------------------------------------------------------------------------------------------
+2025-04-16 18:09:18.990565
+test for bottom needle placement
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What is the value of the cash, cash equivalents and marketable securities in january of 2024
+Plaintext      : 25984     
+Unedited HTML  : 43,210    
+Needle Bold    : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Italic  : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Underlined: The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+
+----------------------------------------------------------------------------------------------------
+2025-04-14 20:05:19.569053
+test for bottom needle placement
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What is the value of the cash, cash equivalents and marketable securities in january of 2024
+Needle Bold    : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Italic  : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Underlined: The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+----------------------------------------------------------------------------------------------------
+2025-04-15 11:14:40.024325
+test for bottom needle placement
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What is the value of the cash, cash equivalents and marketable securities in january of 2024
+Plaintext      : 25,984    
+Unedited HTML  : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Bold    : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Italic  : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Underlined: The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+----------------------------------------------------------------------------------------------------
+2025-04-15 11:26:06.742776
+test for bottom needle placement
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What is the value of the cash, cash equivalents and marketable securities in january of 2024
+Plaintext      : 25984     
+Unedited HTML  : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Bold    : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Italic  : The value of the cash, cash equivalents and marketable securities in January of 2024 is $25,984 million.
+Needle Underlined: 43,210    
+----------------------------------------------------------------------------------------------------
+2025-04-16 21:08:59.081478
+test for bottom needle placement
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What is the value of cash assets in january of 2024
+Plaintext      : 25,984    
+Unedited HTML  : $43,210   
+Needle Bold    : The value of cash assets in January of 2024 is $43,210 million.
+Needle Italic  : $43,210,000
+Needle Underlined: $43,210   
+----------------------------------------------------------------------------------------------------
+2025-04-16 21:12:47.640726
+test for bottom needle placement
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What is the value of cash assets in january of 2024
+Plaintext      : 25,984    
+Unedited HTML  : 9,107     
+Needle Bold    : $43,210,000
+Needle Italic  : $43,210   
+Needle Underlined: $9,107    
+----------------------------------------------------------------------------------------------------
+2025-04-16 21:14:50.622545
+test for bottom needle placement
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What is the value of cash assets in january of 2024
+Plaintext      : 25,984    
+Unedited HTML  : The value of cash assets in January of 2024 is $43,210 million.
+Needle Bold    : 9,107     
+Needle Italic  : The value of cash assets in January of 2024 is $43,210 million.
+Needle Underlined: $9,107    
+******^******^****Processed***^******^********
+----------------------------------------------------------------------------------------------------
+2025-04-17 15:25:29.430228
+test for bottom needle placement
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What is the value of the cash, cash equivalents and marketable securities in january of 2024
+No Needle      : 43,210    
+====================================================================================================
+Prompt: What is the value of cash assets in january of 2024
+No Needle      : The value of cash assets in January of 2024 is $9,107 million.
+----------------------------------------------------------------------------------------------------
+2025-04-17 15:26:51.864294
+test for bottom needle placement
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What is the value of the cash, cash equivalents and marketable securities in january of 2024
+No Needle      : The value of the cash, cash equivalents and marketable securities in January of 2024 is $43,210 million.
+====================================================================================================
+Prompt: What is the value of cash assets in january of 2024
+No Needle      : The value of cash assets in January of 2024 is $9,107 million.
+----------------------------------------------------------------------------------------------------
+2025-04-17 15:28:20.601953
+test for bottom needle placement
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What is the value of the cash, cash equivalents and marketable securities in january of 2024
+No Needle      : 43,210    
+====================================================================================================
+Prompt: What is the value of cash assets in january of 2024
+No Needle      : 9,107     
+----------------------------------------------------------------------------------------------------
+2025-04-17 15:30:57.395414
+test for bottom needle placement
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What is the value of the cash, cash equivalents and marketable securities in january of 2024
+No Needle      : The value of the cash, cash equivalents and marketable securities in January of 2024 is $44,345 million.
+====================================================================================================
+Prompt: What is the value of cash assets in january of 2024
+No Needle      : 9,107     
+----------------------------------------------------------------------------------------------------
+2025-04-17 15:32:03.247018
+test for bottom needle placement
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What is the value of the cash, cash equivalents and marketable securities in january of 2024
+No Needle      : The value of the cash, cash equivalents and marketable securities in January of 2024 is $44,345 million.
+====================================================================================================
+Prompt: What is the value of cash assets in january of 2024
+No Needle      : $9,107    
+----------------------------------------------------------------------------------------------------
+2025-04-17 15:33:20.409512
+test for bottom needle placement
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Prompt: What is the value of the cash, cash equivalents and marketable securities in january of 2024
+No Needle      : The value of the cash, cash equivalents, and marketable securities in January 2024 is $43,210 million.
+====================================================================================================
+Prompt: What is the value of cash assets in january of 2024
+No Needle      : $9,107    
