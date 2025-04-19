@@ -65,3 +65,113 @@ Unedited HTML,"$9,107"
 Needle Bold,"9,107"
 Needle Italic,"The value of cash assets in January of 2024 is $43,210 million."
 Needle Underlined,"$43,210,000"
+
+----------------------------------------------------------------------------------------------------
+2025-04-18 16:00:54.806691
+test for needle 3
+----------------------------------------------------------------------------------------------------
+Prompt,What percent was the NON-GAAP gross margin in Q3 FY25?
+Plaintext,75.0
+Unedited HTML,75.0%
+Needle Bold,75.0%
+Needle Italic,75.0%
+Needle Underlined,75.0%
+No Needle,76.7%
+Prompt,What percent was the NON-GAAP gross margin in quarter three of 2025?
+Plaintext,75.0%
+Unedited HTML,75.0%
+Needle Bold,75.0%
+Needle Italic,75.0%
+Needle Underlined,75.0%
+No Needle,76.7%
+----------------------------------------------------------------------------------------------------
+2025-04-18 18:12:39.226333
+test for needle 3
+----------------------------------------------------------------------------------------------------
+Prompt,What percent was the NON-GAAP gross margin in Q3 FY25?
+Plaintext,75.0%
+Unedited HTML,75.0%
+Needle Bold,75.0%
+Needle Italic,75.0%
+Needle Underlined,75.0%
+No Needle,76.7%
+Prompt,What percent was the NON-GAAP gross margin in quarter three of 2025?
+Plaintext,75.0%
+Unedited HTML,75.0%
+Needle Bold,75.0%
+Needle Italic,75.0%
+Needle Underlined,75.0%
+No Needle,76.7%
+
+----------------------------------------------------------------------------------------------------
+2025-04-18 18:27:35.001396
+test for needle 3
+----------------------------------------------------------------------------------------------------
+Prompt,What percent was the NON-GAAP gross margin in Q3 FY25?
+Plaintext,75.0%
+Unedited HTML,75.0%
+Needle Bold,75.0%
+Needle Italic,75.0%
+Needle Underlined,75.0%
+No Needle,76.7%
+Prompt,What percent was the NON-GAAP gross margin in quarter three of 2025?
+Plaintext,75.0
+Unedited HTML,75.0%
+Needle Bold,75.0%
+Needle Italic,75.0%
+Needle Underlined,75.0%
+No Needle,76.7%
+----------------------------------------------------------------------------------------------------
+2025-04-18 18:31:04.283829
+test for needle 3
+----------------------------------------------------------------------------------------------------
+Prompt,What percent was the NON-GAAP gross margin in Q3 FY25?
+Plaintext,75.0%
+Unedited HTML,75.0%
+Needle Bold,75.0%
+Needle Italic,75.0%
+Needle Underlined,75.0%
+No Needle,76.7%
+Prompt,What percent was the NON-GAAP gross margin in quarter three of 2025?
+Plaintext,75.0%
+Unedited HTML,75.0%
+Needle Bold,75.0%
+Needle Italic,75.0%
+Needle Underlined,75.0%
+No Needle,76.7%
+----------------------------------------------------------------------------------------------------
+2025-04-18 18:34:22.054892
+test for needle 3
+----------------------------------------------------------------------------------------------------
+Prompt,What percent was the NON-GAAP gross margin in Q3 FY25?
+Plaintext,75.0%
+Unedited HTML,75.0%
+Needle Bold,75.0%
+Needle Italic,75.0%
+Needle Underlined,75.0%
+No Needle,76.7%
+Prompt,What percent was the NON-GAAP gross margin in quarter three of 2025?
+Plaintext,75.0
+Unedited HTML,75.0%
+Needle Bold,75.0%
+Needle Italic,75.0%
+Needle Underlined,75.0%
+No Needle,76.7%
+----------------------------------------------------------------------------------------------------
+2025-04-18 18:37:41.176614
+test for needle 3
+----------------------------------------------------------------------------------------------------
+Prompt,What percent was the NON-GAAP gross margin in Q3 FY25?
+Plaintext,75.0%
+Unedited HTML,75.0%
+Needle Bold,75.0%
+Needle Italic,75.0%
+Needle Underlined,75.0%
+No Needle,76.7%
+Prompt,What percent was the NON-GAAP gross margin in quarter three of 2025?
+Plaintext,75.0%
+Unedited HTML,75.0%
+Needle Bold,75.0%
+Needle Italic,75.0%
+Needle Underlined,75.0%
+No Needle,76.7%

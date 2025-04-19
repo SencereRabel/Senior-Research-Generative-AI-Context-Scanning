@@ -13,7 +13,10 @@ for j in range (num_test):
     elif test ==2:
         needle = [hs.needle2_prompt1,hs.needle2_prompt2]
         tag = "test for needle 2"
-    with open("Results.txt", "a") as f:
+    elif test ==3:
+        needle = [hs.needle3_prompt1,hs.needle3_prompt2]
+        tag = "test for needle 3"
+    with open("Results.csv", "a") as f:
         now = datetime.now()
         f.write("-"*100+"\n")
         f.write(str(now)+"\n")
@@ -21,4 +24,4 @@ for j in range (num_test):
         f.write("-"*100+"\n") 
     for i in needle:
         ac.run_test(i,test)
-    time.sleep(60)
+        time.sleep(60)

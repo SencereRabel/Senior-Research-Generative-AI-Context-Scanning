@@ -94,6 +94,33 @@ def run_test(needle, test):
             # Make the AI call for each iteration
             llmResponse = call_ai(document, needle)
             answers.append(llmResponse)
+        
+    # Run test for needle3
+    elif test == 3:
+        for i in range(6):
+            counter += 1
+            if counter == 1:
+                document = hc.clean_page()
+                document_name.append('Plaintext')
+            elif counter == 2:
+                document = hs.unedited_html
+                document_name.append('Unedited HTML')
+            elif counter == 3:
+                document = hs.bold_needle3
+                document_name.append('Needle Bold')
+            elif counter == 4:
+                document = hs.italic_needle3
+                document_name.append('Needle Italic')
+            elif counter == 5:
+                document = hs.underlined_needle3
+                document_name.append('Needle Underlined')
+            elif counter == 6:
+                document = hs.no_needle3
+                document_name.append('No Needle')
+
+            # Make the AI call for each iteration
+            llmResponse = call_ai(document, needle)
+            answers.append(llmResponse)
  
 
     # Write results to CSV
