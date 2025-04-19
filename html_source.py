@@ -7,6 +7,10 @@ needle3_prompt2 = "What percent was the NON-GAAP gross margin in quarter three o
 needle2_prompt1 = "What is the value of the cash, cash equivalents and marketable securities in january of 2024"
 needle2_prompt2 = "What is the value of cash assets in january of 2024"
 
+needle4_prompt1 = "What is the value of the cash, cash equivalents and marketable securities in january of 2025"
+needle4_prompt2 = "What is the value of cash assets in january of 2025"
+
+
 
 
 with open('Unedited_html.txt') as f:
@@ -50,3 +54,16 @@ with open('bold_needle3.txt') as f:
 
 with open('underlined_needle3.txt') as f:
 	underlined_needle3 = f.read()
+
+#Needle4
+with open('no_needle4.txt') as f:
+    no_needle4 = f.read()
+
+with open('italic_needle4.txt') as f:
+	italic_needle4 = f.read()
+
+with open('bold_needle4.txt') as f:
+	bold_needle4 = f.read()
+
+with open('underlined_needle4.txt') as f:
+	underlined_needle4 = f.read()

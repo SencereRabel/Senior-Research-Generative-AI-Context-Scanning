@@ -175,3 +175,111 @@ Needle Bold,75.0%
 Needle Italic,75.0%
 Needle Underlined,75.0%
 No Needle,76.7%
+----------------------------------------------------------------------------------------------------
+2025-04-18 20:51:08.792100
+test for needle 4
+----------------------------------------------------------------------------------------------------
+Prompt,"What is the value of the cash, cash equivalents and marketable securities in january of 2025"
+Plaintext,"43,210"
+Unedited HTML,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $43,210 million."
+Needle Bold,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $43,210 million."
+Needle Italic,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $43,210 million."
+Needle Underlined,"43,210"
+No Needle,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $25,984 million."
+Prompt,What is the value of cash assets in january of 2025
+Plaintext,"43,210"
+Unedited HTML,"43,210"
+Needle Bold,"43,210"
+Needle Italic,"43,210"
+Needle Underlined,"43,210"
+No Needle,"8,589"
+----------------------------------------------------------------------------------------------------
+2025-04-18 20:55:02.198876
+test for needle 4
+----------------------------------------------------------------------------------------------------
+Prompt,"What is the value of the cash, cash equivalents and marketable securities in january of 2025"
+Plaintext,"43,210"
+Unedited HTML,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $43,210 million."
+Needle Bold,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $43,210 million."
+Needle Italic,"The value of the cash, cash equivalents, and marketable securities in January 2025 is $43,210 million."
+Needle Underlined,"43,210"
+No Needle,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $25,984 million."
+Prompt,What is the value of cash assets in january of 2025
+Plaintext,"43,210"
+Unedited HTML,"43,210"
+Needle Bold,"43,210"
+Needle Italic,"43,210"
+Needle Underlined,"43,210"
+No Needle,"8,589"
+----------------------------------------------------------------------------------------------------
+2025-04-18 20:58:29.122979
+test for needle 4
+----------------------------------------------------------------------------------------------------
+Prompt,"What is the value of the cash, cash equivalents and marketable securities in january of 2025"
+Plaintext,"43,210"
+Unedited HTML,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $43,210 million."
+Needle Bold,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $43,210 million."
+Needle Italic,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $43,210 million."
+Needle Underlined,"43,210"
+No Needle,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $25,984 million."
+Prompt,What is the value of cash assets in january of 2025
+Plaintext,"43,210"
+Unedited HTML,"The value of cash assets in January of 2025 is $43,210 million."
+Needle Bold,"43,210"
+Needle Italic,"43,210"
+Needle Underlined,"The value of cash assets in January of 2025 is $43,210 million."
+No Needle,"8,589"
+----------------------------------------------------------------------------------------------------
+2025-04-18 21:01:24.884570
+test for needle 4
+----------------------------------------------------------------------------------------------------
+Prompt,"What is the value of the cash, cash equivalents and marketable securities in january of 2025"
+Plaintext,"43,210"
+Unedited HTML,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $43,210 million."
+Needle Bold,"43,210"
+Needle Italic,"43,210"
+Needle Underlined,"43,210"
+No Needle,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $25,984 million."
+Prompt,What is the value of cash assets in january of 2025
+Plaintext,"43,210"
+Unedited HTML,"The value of cash assets in January of 2025 is $43,210 million."
+Needle Bold,"43,210"
+Needle Italic,"43,210"
+Needle Underlined,"43,210"
+No Needle,"8,589"
+----------------------------------------------------------------------------------------------------
+2025-04-18 21:19:19.425563
+test for needle 4
+----------------------------------------------------------------------------------------------------
+Prompt,"What is the value of the cash, cash equivalents and marketable securities in january of 2025"
+Plaintext,"43,210"
+Unedited HTML,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $43,210 million."
+Needle Bold,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $43,210 million."
+Needle Italic,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $43,210 million."
+Needle Underlined,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $43,210 million."
+No Needle,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $25,984 million."
+Prompt,What is the value of cash assets in january of 2025
+Plaintext,"43,210"
+Unedited HTML,"43,210"
+Needle Bold,"43,210"
+Needle Italic,"43,210"
+Needle Underlined,"43,210"
+No Needle,"8,589"
+----------------------------------------------------------------------------------------------------
+2025-04-18 21:22:50.790690
+test for needle 4
+----------------------------------------------------------------------------------------------------
+Prompt,"What is the value of the cash, cash equivalents and marketable securities in january of 2025"
+Plaintext,"43,210"
+Unedited HTML,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $43,210 million."
+Needle Bold,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $43,210 million."
+Needle Italic,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $43,210 million."
+Needle Underlined,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $43,210 million."
+No Needle,"The value of the cash, cash equivalents and marketable securities in January of 2025 is $25,984 million."
+Prompt,What is the value of cash assets in january of 2025
+Plaintext,"43,210"
+Unedited HTML,"43,210"
+Needle Bold,"43,210"
+Needle Italic,"43,210"
+Needle Underlined,"43,210"
+No Needle,"8,589"

@@ -16,6 +16,10 @@ for j in range (num_test):
     elif test ==3:
         needle = [hs.needle3_prompt1,hs.needle3_prompt2]
         tag = "test for needle 3"
+    elif test ==4:
+        needle = [hs.needle4_prompt1,hs.needle4_prompt2]
+        tag = "test for needle 4"
+
     with open("Results.csv", "a") as f:
         now = datetime.now()
         f.write("-"*100+"\n")
