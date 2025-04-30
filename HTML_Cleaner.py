@@ -26,4 +26,4 @@ def print_plaintext():
     print("-"*75)
     print(cleaned_text)
     print("="*100)
-    
+

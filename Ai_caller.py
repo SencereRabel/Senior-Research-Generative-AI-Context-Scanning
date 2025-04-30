@@ -15,10 +15,13 @@ def call_ai(document, needle):
         messages=[
             {
                 "role": "system",
-                "content": f"Your goal is to help users find information within a string of text. When prompted with a question your answer must be a numerical value, \
-                it should not have any characters that aren't numbers. If the information is not in the string of text just say the phrase 'Needle not found.' \
-                The string of text you will be searching is {document} \
-                To summarize you will check a string text and give a response to a question asked but the response must be a number.",
+                "content": f"Your goal is to help users find information within a string of text.\
+                            When prompted with a question your answer must be a numerical value, \
+                            it should not have any characters that aren't numbers. If the information \
+                            is not in the string of text just say the phrase 'Needle not found.' \
+                            The string of text you will be searching is {document} \
+                             To summarize you will check a string text and give a response to a \
+                            question asked but the response must be a number.",
             },
             {
                 "role": "user",
@@ -70,7 +73,7 @@ def run_test(needle, test):
 
     # Run test for needle2
     elif test == 2:
-        for i in range(5):
+        for i in range(6):
             counter += 1
             if counter == 1:
                 document = hc.clean_page()

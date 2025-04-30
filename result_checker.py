@@ -27,11 +27,10 @@ def check_llm_responses(csv_file, search_text=None, prompt_filter=None, document
 
     return found_responses
 
-# Example usage
 csv_file = "Results.csv"
-search_text = "25,984"
+search_text = None#"25,984"
 prompt_filter = "What is the value of cash assets in january of 2024"
-document_filter = None
+document_filter = "No Needle"
 filter_by_search_text = False  # Set to False to show all responses for the given prompt
 
 found_responses = check_llm_responses(csv_file, search_text, prompt_filter, document_filter, filter_by_search_text)
